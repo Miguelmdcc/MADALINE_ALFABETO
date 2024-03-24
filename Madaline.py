@@ -117,5 +117,5 @@ def identify_target(saida):
         if(saida[i]==1):
             return alfabeto[i]
 
-valores = treino()
-teste(entAux[25,:],valores[0],valores[1],valores[2])
+# valores = treino()
+# teste(entAux[25,:],valores[0],valores[1],valores[2])

@@ -31,8 +31,8 @@ def letra_pra_matriz(alfabeto,fonte):
         d.text((x, y), text[i], fill=(0,0,0), font=font)
         
         # Salve a imagem
-        # img.save(f'letra{cont}.png')
-        # cont+=1
+        img.save(f'letra{cont}.png')
+        cont+=1
         # Convertendo para preto e branco
         im = img.convert("L")
         # Transformando em matriz
